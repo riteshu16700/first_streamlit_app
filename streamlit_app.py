@@ -38,3 +38,12 @@ my_cur.execute("SELECT * from fruit_load_list")
 my_data_row = my_cur.fetchall()
 streamlit.header("The Fruit Load List Contains:")
 streamlit.dataframe(my_data_row)
+
+add_my_fruit=streamlite.text_input('What Fruit would you like to add')
+
+streamlite.write= ('Thanks for Adding', add_my_fruit)
+
+#my_cur.execute("insert into fruit_Load_list vakues('from stealite')")
+
+
+
